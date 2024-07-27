@@ -7,7 +7,7 @@ export const Navbar = () => {
         <div className="container-fluid">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/titulares">Aguateros</NavLink>
+                    <NavLink className="nav-link" to="/titulares">Titulares</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/suplentes">Suplentes</NavLink>
