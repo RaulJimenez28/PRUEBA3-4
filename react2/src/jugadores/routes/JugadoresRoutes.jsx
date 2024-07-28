@@ -3,6 +3,7 @@ import { Navbar } from "../../ui/components/Navbar"
 import { AguaterosPage, JugadoresPage, SuplentePage } from "../pages"
 import { GymPage } from "../../gyms/pages/GymPage"
 import { Footer } from "../../ui/components/Footer"
+import { JugadorPage } from "../pages/JugadorPage"
 
 
 export const JugadoresRoutes = () => {
@@ -15,6 +16,7 @@ export const JugadoresRoutes = () => {
         <Route path = "suplentes" element = {<SuplentePage/>}/>
         <Route path = "aguateros" element = {<AguaterosPage/>}/>
         <Route path = "gyms" element = {<GymPage/>}/>
+        <Route path = "Jugador/:id" element = {<JugadorPage/>}/>
       </Routes>
       <Footer/>
     </>

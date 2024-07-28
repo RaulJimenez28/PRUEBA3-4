@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom"
 
 export const JugadoresCard = ({id,Nombre,Equipo,Edad,Descripcion,Tipo}) => {
 const imgSrc = `src/assets/NBA/${id}.jpg`;
@@ -16,6 +16,7 @@ const imgSrc = `src/assets/NBA/${id}.jpg`;
                         <div className="card-text">Equipo: {Equipo}</div>
                         <div className="card-text">Descripcion: {Descripcion}</div>
                         <div className="card-text">Edad: {Edad}</div>
+                        <Link to={`/jugadores/${id}`}> Ver Mas...</Link>
                         
                     </div>
                 </div>

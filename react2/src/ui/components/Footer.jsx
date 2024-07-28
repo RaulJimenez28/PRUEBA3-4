@@ -2,7 +2,7 @@
 export const Footer = () => {
   return (
     <div>
-              <footer class="footer">
+              <footer className="footer">
         <p>&copy; 2024 Tu Nombre o Empresa. Todos los derechos reservados.</p>
         <p>
             <a href="#">Facebook</a>
